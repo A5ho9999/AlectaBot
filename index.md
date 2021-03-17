@@ -15,15 +15,15 @@
 - Add an Team Leader to permission list on this server. Can provide more than one User at a time. 
 - Requires Team Leader+
 
-**`g!add senior USER`	**
+**`g!add senior USER`**
 - Add an Senior Mod to permission list on this server. Can provide more than one User at a time. 
 - Requires Team Leader+
 
-**`g!add advanced USER`	**
+**`g!add advanced USER`**
 - Add an Advanced Mod to permission list on this server. Can provide more than one User at a time. 
 - Requires Senior+
 
-**`g!add junior USER`	**
+**`g!add junior USER`**
 - Add an Junior Mod to permission list on this server. Can provide more than one User at a time. 
 - Requires Senior+
 
@@ -89,3 +89,21 @@
 **`g!giveaway [CHANNEL] [TIME] [WINNERS] [REWARDS]`**	
 - Starts an Interactive giveaway setup (You can provide the details in the command to shortcut it if you know how).	
 - Requires Senior+
+
+
+## Bot Games | Work in Progress
+**`g!enable angels`**
+- Enables the Angel Collection Mini-game.
+- Requires Team Leader+
+
+**`g!angel.channels CHANNELS`**
+- Sets the provided Channels as active spawning Channels for the Angels.
+- Requires Team Leader+
+
+**`g!claim`**	
+- Claims the avaliable Angel in the Channel
+- No Requirement
+
+**`g!angels`**
+- Displays the Uesrs Collected Angels
+- No Requirement
