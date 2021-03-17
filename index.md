@@ -1,20 +1,10 @@
 # Alecta Help
 
-### Markdown
+Command arguments are displayed in all caps.
+USER, CHANNEL | Mention, ID or Name can be provided. (Username not recommended)
+[TEXT] |  Text inside [] is an option addon, it isn't required for the command to work.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+## Management Commands
+`g!add employee USER`	
+ - Add an Employee to permission list on this server. Can provide more than one User at a time	
+ - Requires Team Leader+
