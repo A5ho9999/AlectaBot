@@ -100,6 +100,10 @@
 - Sets the provided Channels as active spawning Channels for the Angels.
 - Requires Team Leader+
 
+**`g!angel.removechannels CHANNELS`**
+- Removes the provided Channels as spawning Channels for the Angels.
+- Requires Team Leader+
+
 **`g!claim`**	
 - Claims the avaliable Angel in the Channel
 - No Requirement
