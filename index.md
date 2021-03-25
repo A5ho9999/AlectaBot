@@ -37,7 +37,7 @@
 - Requires Senior+
 
 **`g!remove react role MESSAGE_ID`**	
-- Removes a Reaction Role with the Message provided. A selection menu will be sent when used. (Currently bugged I think). 
+- Removes a Reaction Role with the Message provided. A selection menu will be sent when used.
 - Requires Senior+
 
 ## Modding Commands
