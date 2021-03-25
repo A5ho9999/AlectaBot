@@ -31,6 +31,30 @@
 - Add an Trainee Mod to permission list on this server. Can provide more than one User at a time. 
 - Requires Senior+
 
+**`g!remove employee USER`**
+- Removes an Employee to permission list on this server. Can provide more than one User at a time. 
+- Requires Team Leader+
+
+**`g!remove team leader USER`**
+- Removes an Team Leader to permission list on this server. Can provide more than one User at a time. 
+- Requires Team Leader+
+
+**`g!remove senior USER`**
+- Removes an Senior Mod to permission list on this server. Can provide more than one User at a time. 
+- Requires Team Leader+
+
+**`g!remove advanced USER`**
+- Removes an Advanced Mod to permission list on this server. Can provide more than one User at a time. 
+- Requires Senior+
+
+**`g!remove junior USER`**
+- Removes an Junior Mod to permission list on this server. Can provide more than one User at a time. 
+- Requires Senior+
+
+**`g!remove trainee USER`**
+- Removes an Trainee Mod to permission list on this server. Can provide more than one User at a time. 
+- Requires Senior+
+
 ## Server Management Commands
 **`g!add react role CHANNEL MESSAGE_ID ROLE [True/False (Custom Emote or Not)]`**
 - Create a new Reaction Role on the Message provided with the Role. It will ask for the emote you wish to use when you use the command.	
