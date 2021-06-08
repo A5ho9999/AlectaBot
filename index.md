@@ -64,43 +64,75 @@
 - Removes a Reaction Role with the Message provided. A selection menu will be sent when used.
 - Requires Senior+
 
-## Suggestion Commands
+## Suggestion Setup Commands
 **`g!suggestion setup`**
-- Starts an Interactive Setup for the Suggestion System
+- Starts an Interactive Setup for the Suggestion System.
 - Requires Team Leader+
 
 **`g!suggestion.approvechannel`**
-- Changes the Channel used for Approving Suggestions
+- Changes the Channel used for Approving Suggestions.
 - Requires Team Leader+
 
 **`g!suggestion.votechannel`**
-- Changes the Channel used for Voting on Suggestions
+- Changes the Channel used for Voting on Suggestions.
 - Requires Team Leader+
 
 **`g!suggestion.viewchannel`**
-- Changes the Channel used for Viewing Closed Suggestions
+- Changes the Channel used for Viewing Closed Suggestions.
 - Requires Team Leader+
 
 **`g!suggestion.logchannel`**
-- Changes the Channel used for receiving Suggestion Updates
+- Changes the Channel used for receiving Suggestion Updates.
 - Requires Team Leader+
 
 **`g!suggestion.cooldown [option (enable/disable/edit)]`**
-- Used for Setting up the Suggestion Cooldowns (Recommended to reduce spam)
+- Used for Setting up the Suggestion Cooldowns (Recommended to reduce spam).
 - Requires Team Leader+
 
 **`g!suggestion.wordfilter [option (add/remove/get or word1 word2)]`**
-- Used for Setting up the Word Filter, which will remove any words listed in the suggestion
+- Used for Setting up the Word Filter, which will remove any words listed in the suggestion.
 - Requires Team Leader+
 
+## Suggestion Commands
 **`g!suggestion.ban USER`**
-- Bans a User from Creating or Editing Suggestions on the server
+- Bans a User from Creating or Editing Suggestions on the server.
 - Requires Team Leader+
 
 **`g!suggestion.unban USER`**
-- Un-Bans a User from Creating or Editing Suggestions on the server
+- Un-Bans a User from Creating or Editing Suggestions on the server.
 - Requires Team Leader+
 
+**`g!suggestApprove SUGGESTION_ID`**
+- Approves the Suggestion with the given ID.
+- Requires Trainee+
+
+**`g!suggestDeny SUGGESTION_ID DENY_REASON`**
+- Denies the Suggestion with the given ID and Reason (Player will be DM'ed).
+- Requires Trainee+
+
+**`g!suggestPending`**
+- Displays the Suggestion Pending Action.
+- Requires Trainee+
+
+**`g!suggestBlock SUGGESTION_ID`**
+- Blocks a Suggestion from being edited using the provided ID.
+- Requires Senior+
+
+**`g!suggestComment SUGGESTION_ID COMMENT`**
+- Adds or Edits a Mod Comment on the provided Suggestion (Only 1 Comment Allowed, will replace current comment).
+- Requires Trainee+
+
+**`g!suggestEdit SUGGESTION_ID NEW_CONTENT`**
+- Changes the Content of a Suggestion (Will replace the Current one).
+- No Requirement | To Edit Any Suggestion: Requires Trainee+
+
+**`g!suggestAttach SUGGESTION [NEW_ATTACHMENT_URL]`**
+- Changes the Attachment/Image on the Suggestion, A Link can be provided or Image can be sent with the Command. (Will replace current one)
+- No Requirement | To Edit Any Suggestion: Requires Trainee+
+
+**`g!suggest CONTENT`**
+- Creates a new Suggestion with the Content Provided (Can upload image along side)
+- No Requirement
 
 ## Modding Commands
 **`g!support USER`**
