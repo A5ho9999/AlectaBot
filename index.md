@@ -1,4 +1,4 @@
-# Alecta Help
+# GTarcade Help
 
 ### Command arguments are displayed in all caps.
 
@@ -63,6 +63,44 @@
 **`g!remove react role MESSAGE_ID`**	
 - Removes a Reaction Role with the Message provided. A selection menu will be sent when used.
 - Requires Senior+
+
+## Suggestion Commands
+**`g!suggestion setup`**
+- Starts an Interactive Setup for the Suggestion System
+- Requires Team Leader+
+
+**`g!suggestion.approvechannel`**
+- Changes the Channel used for Approving Suggestions
+- Requires Team Leader+
+
+**`g!suggestion.votechannel`**
+- Changes the Channel used for Voting on Suggestions
+- Requires Team Leader+
+
+**`g!suggestion.viewchannel`**
+- Changes the Channel used for Viewing Closed Suggestions
+- Requires Team Leader+
+
+**`g!suggestion.logchannel`**
+- Changes the Channel used for receiving Suggestion Updates
+- Requires Team Leader+
+
+**`g!suggestion.cooldown [option (enable/disable/edit)]`**
+- Used for Setting up the Suggestion Cooldowns (Recommended to reduce spam)
+- Requires Team Leader+
+
+**`g!suggestion.wordfilter [option (add/remove/get or word1 word2)]`**
+- Used for Setting up the Word Filter, which will remove any words listed in the suggestion
+- Requires Team Leader+
+
+**`g!suggestion.ban USER`**
+- Bans a User from Creating or Editing Suggestions on the server
+- Requires Team Leader+
+
+**`g!suggestion.unban USER`**
+- Un-Bans a User from Creating or Editing Suggestions on the server
+- Requires Team Leader+
+
 
 ## Modding Commands
 **`g!support USER`**
