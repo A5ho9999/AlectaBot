@@ -1,2 +1,2 @@
-# AlectaBot
-For the GTarcade Discord Bot Alecta
+# GTarcadeDiscordBot
+For the GTarcade Discord Bot
