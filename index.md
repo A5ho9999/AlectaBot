@@ -93,6 +93,18 @@
 - Used for Setting up the Word Filter, which will remove any words listed in the suggestion.
 - Requires Team Leader+
 
+**`g!suggestion.role ROLE`**
+- Changes the Role used for receiving Suggestion Updates.
+- Requires Team Leader++
+
+**`g!suggestion.upvotes AMOUNT`**
+- Changes the Upvotes needed for receiving Suggestion Updates.
+- Requires Team Leader++
+
+**`g!suggestion.downvotes AMOUNT`**
+- Changes the Downvotes needed for receiving Suggestion Updates.
+- Requires Team Leader+
+
 ## Suggestion Commands
 **`g!suggestion.ban USER`**
 - Bans a User from Creating or Editing Suggestions on the server.
@@ -121,6 +133,10 @@
 **`g!suggestComment SUGGESTION_ID COMMENT`**
 - Adds or Edits a Mod Comment on the provided Suggestion (Only 1 Comment Allowed, will replace current comment).
 - Requires Trainee+
+
+**`g!suggestComment SUGGESTION_ID COMMENT`**
+- Adds or Edits the Status on the provided Suggestion (Only 1 Status Allowed, will replace current Status).
+- Requires Junior+
 
 **`g!suggestEdit SUGGESTION_ID NEW_CONTENT`**
 - Changes the Content of a Suggestion (Will replace the Current one).
