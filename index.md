@@ -134,7 +134,7 @@
 - Adds or Edits a Mod Comment on the provided Suggestion (Only 1 Comment Allowed, will replace current comment).
 - Requires Trainee+
 
-**`g!suggestComment SUGGESTION_ID COMMENT`**
+**`g!suggestStatus SUGGESTION_ID CUSTOM_STATUS`**
 - Adds or Edits the Status on the provided Suggestion (Only 1 Status Allowed, will replace current Status).
 - Requires Junior+
 
